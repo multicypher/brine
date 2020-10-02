@@ -18,3 +18,14 @@
 </head>
 
 <body <?php body_class();?>>
+
+<?php
+    if(function_exists(wp_body_open())){
+        wp_body_open();
+    }
+ ?>
+<div id="page" class="site">
+    <header id="masthead" class="site-head" role="banner">
+        <?php get_template_part('template_parts/header/nav'); ?>
+    </header>
+    <div id="content" class="site-content">

@@ -11,3 +11,25 @@ Tags: blog, ecommerce, responsive, full-width
 Text Domain: brine
 
 */
+
+/* Entry Meta */
+.updated:not(.published){
+    display: none;
+}
+
+/* Navbar dropdown on hover */
+.nav-item:hover .dropdown-menu:not(.show){
+    display: block;
+}
+
+/* pagination */
+
+.page-numbers.current > span {
+    background-color: gray;
+    color: #fff;
+}
+
+.page-numbers > span:hover {
+    background-color:black;
+    color:#fff;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "brine",
+  "version": "1.0.0",
+  "description": "Brine Theme Packages",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["WordPress","Themes"],
+  "author": "Sanjay Patil",
+  "license": "MIT",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ]
+}
